@@ -18,3 +18,6 @@ client.connect();
 client.on('chat', function(channel, user, message, self){
     client.action("first_video_", user['display-name'] + "Hi! Welcome to my chat bro..");
 });
+client.on('connected', function(addres, port){
+    client.action("first_video_", "Добро пожаловать !")
+});
