@@ -20,4 +20,4 @@ client.on('chat', function (channel, user, message, self) {
 });
 client.on('connected', function (addres, port) {
     client.action("first_video_", "Добро пожаловать !")
-});                                                                                                                                                
+});                                                                                                                                                 
